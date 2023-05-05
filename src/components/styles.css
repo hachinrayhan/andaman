@@ -40,6 +40,27 @@ body {
     object-fit: cover;
 }
 
+.swiper-button-prev {
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px !important;
+}
+
+.swiper-button-next {
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: black;
+}
+
+:root {
+    --swiper-navigation-size: 20px;
+}
+
 .autoplay-progress {
     position: absolute;
     right: 16px;

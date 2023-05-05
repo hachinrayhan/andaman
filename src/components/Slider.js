@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import './styles.css';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper';
+import { Autoplay, Navigation } from 'swiper';
 
 export default function Slider() {
     const progressCircle = useRef(null);
@@ -32,7 +32,7 @@ export default function Slider() {
                 //     clickable: true,
                 // }}
                 navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
+                modules={[Autoplay, Navigation]}
                 // onAutoplayTimeLeft={onAutoplayTimeLeft}
                 className="mySwiper mt-6"
             >
@@ -48,6 +48,7 @@ export default function Slider() {
                     <span className='hidden' ref={progressContent}></span>
                 </div>
             </Swiper>
+
         </>
     );
 }
