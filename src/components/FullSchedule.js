@@ -2,7 +2,7 @@ import React from 'react';
 
 const FullSchedule = () => {
     return (
-        <div className='text-start mt-10 space-y-4 bg-[#FFFFFF] p-6'>
+        <div className='text-start mt-10 bg-[#FFFFFF] p-6'>
             <h2 className='text-4xl font-bold'>Full Schedule</h2>
             <ul className="steps steps-vertical">
                 <li className="step step-primary"><p className='text-start'><span className='font-bold'>To Start On with</span> <br /> Arrive at the Dive shop</p> </li>
