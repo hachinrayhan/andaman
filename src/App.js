@@ -18,11 +18,11 @@ import DateExample from './components/Date';
 
 function App() {
   return (
-    <div class="App">
+    <div className="App">
       <Navbar></Navbar>
-      <section class="bg-base-200">
-        <div class="flex flex-col md:flex-row">
-          <div class="w-full md:w-2/3 md:mx-12">
+      <section className="bg-base-200">
+        <div className="flex flex-col lg:flex-row">
+          <div className="w-full lg:w-2/3 lg:mx-12">
             <BookScuba></BookScuba>
             <Slider></Slider>
             <Description></Description>
@@ -37,9 +37,9 @@ function App() {
             <About></About>
             <Faq></Faq>
           </div>
-          <div class="w-full md:w-1/3">
+          <div className="w-full lg:w-1/3">
             <BookYourDive></BookYourDive>
-            <DateExample class="w-full mt-8"></DateExample>
+            <DateExample className="w-full mt-8"></DateExample>
           </div>
         </div>
       </section>
