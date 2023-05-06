@@ -8,7 +8,7 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
-import "./styles.css";
+import "./style.css";
 
 // import required modules
 import { FreeMode, Navigation, Thumbs, Autoplay } from "swiper";
@@ -32,7 +32,7 @@ export default function Slider() {
                 navigation={true}
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode, Navigation, Thumbs, Autoplay]}
-                className="mySwiper2"
+                className="mySwiper2 mt-10"
             >
                 <SwiperSlide><img src="https://ocean.go2andaman.com/wp-content/uploads/2021/08/Depositphotos_72077543_xl-2015-scaled.jpg?compress=true&quality=90&w=940&dpr=1.0" alt="" /></SwiperSlide>
                 <SwiperSlide><img src="https://ocean.go2andaman.com/wp-content/uploads/2021/08/Depositphotos_367872072_xl-2015-scaled.jpeg?compress=true&quality=90&w=940&dpr=1.0" alt="" /></SwiperSlide>
