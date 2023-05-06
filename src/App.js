@@ -13,6 +13,8 @@ import WhatHappens from './components/WhatHappens';
 import CancPolicy from './components/CancPolicy';
 import About from './components/About';
 import Faq from './components/Faq';
+import BookYourDive from './components/BookYourDive';
+import DateExample from './components/Date';
 
 function App() {
   return (
@@ -35,8 +37,9 @@ function App() {
             <About></About>
             <Faq></Faq>
           </div>
-          <div>
-
+          <div className='col-span-1 lg:ml-5'>
+            <BookYourDive></BookYourDive>
+            <DateExample className="w-full mt-8"></DateExample>
           </div>
         </div>
       </section>
